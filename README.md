@@ -50,3 +50,5 @@ More information:
     - GET  `/boards/{name}/intersection-points/` get all intersection points coordinate
     - POST  `/boards/{name}/intersection-points/` find all intersection points (Bentley-Ottmann algorithm)
     
+## How to read docs?
+1. Open in browser `docs/_build/html/index.html`
