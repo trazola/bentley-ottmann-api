@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "bentley-ottmann-api"
+version = "0.1.0"
+description = "Bentley Ottmann algorithm with FastAPI"
+authors = ["risoko <przemyslaw.rozycki1996@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "3.9.5"
+matplotlib = "^3.4.2"
+fastapi = "^0.65.1"
+uvicorn = {extras = ["standard"], version = "^0.13.4"}
+psycopg2 = "^2.8.6"
+alembic = "^1.6.5"
+SQLAlchemy = "^1.4.17"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

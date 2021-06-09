@@ -1,0 +1,10 @@
+# database
+DB_USER=user
+DB_PASSWORD=super_trazola
+DB_NAME=bentley_ottmann
+DB_PORT=5432
+DB_HOST=db
+
+# pgadmin
+PGADMIN_DEFAULT_EMAIL=trazola@trazola.com
+PGADMIN_DEFAULT_PASSWORD=trazola
